@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  auto;
+}
+
+button {
+    position: relative;
+    /* top: 80px; */
+    /* left: 10px; */
+    padding: 5px 44px;
+    color: #fff;
+    background-color: #f4d35e;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px #50514F;
+    outline: none;
+  }
+  
+  button:hover, button:active {
+    outline: none;
+    background: #50514F;
+    cursor: pointer;
+  }
+  
+  .roll-dice{
+    margin: 5px;;
+  }
+  .go-center {
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .flex-column-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 5% 5% 5% 5%;
+    flex-direction: column;
+  }
+  
+  .flex-column-container select {
+    align-self: flex-start;
+    align-items: center;
+    background: black;
+    color: white;
+  }
+  
+  .flex-row-container {
+    display: flex;
+    margin: 5% 5% 5% 5%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
